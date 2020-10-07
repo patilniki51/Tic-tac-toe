@@ -3,4 +3,9 @@
     color: #000000;
     font-weight: bolder;
   }
-  
+  .cross{
+    background-color: red;
+  }
+  .circle{
+    background-color: green;
+  }
