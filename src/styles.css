@@ -10,7 +10,9 @@
   box-sizing: border-box;
 }
 
-body {
-  position: relative;
-  background-image: url(./assets/bgc.jpg);
+body { 
+  background-color: black;
+  /* position: relative;
+  background: url(./assets/bgc2.jpg) no-repeat center center fixed;
+  background-size: cover; */
 }

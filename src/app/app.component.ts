@@ -80,7 +80,7 @@ export class AppComponent {
       this.itemArray[2] === this.itemArray[6]
       ){
         this.winMessage = `${this.itemArray[0]} won`;
-    }  
+    }
   }
 
 
