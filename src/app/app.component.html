@@ -1,7 +1,7 @@
 <div class="container">
   <div class="row justify-content-center align-items-center">
 
-    <div class="col col-lg-6">
+    <div class="game">
       <div class="text-center">
         <h1 [hidden] = "isCross" class="uppercase text-muted">Player One Turn</h1>
         <h1 [hidden] = "!isCross" class="uppercase text-muted">Player Two Turn</h1>
@@ -20,11 +20,12 @@
     </div>
   
 
-    <div class="col col-lg-4 text-center">
+    <!-- <div> class="col col-lg-2 text-center" -->
+      <div class="info">
       <h1  *ngIf="winMessage" class="text-uppercase">Game Over!! {{winMessage}} !!</h1>
       <button 
       (click) = "reloadGame()" 
-      class="btn btn-warning text-uppercase pl-5 pr-5">
+      class="btn btn-warning text-uppercase pl-5 pr-5 justify-content-center">
         Reload Game
       </button>
     </div>
